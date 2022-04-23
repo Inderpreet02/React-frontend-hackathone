@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { TracsactionProvider } from './context/TransactionContext';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <TracsactionProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </TracsactionProvider>
 );
 
 

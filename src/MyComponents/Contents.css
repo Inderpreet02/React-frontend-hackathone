@@ -8,6 +8,10 @@
     background-color:#B6FFCE; */
     background-image: url("https://i.pinimg.com/originals/ab/4b/cb/ab4bcbbd5be3d5e4eaf322d3cb74d773.jpg");
     height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
 }
 .content{
     
@@ -69,4 +73,15 @@ h3:hover{
                  0 0 80px #FF6B6B,
                  0 0 120px #FF6B6B,
                  0 0 160px #FF6B6B,
+}
+
+.btn1{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    border-radius: 100%;
+    background-color: teal;
+    border: 1px solid #111;
+    padding: 10px;
 }
